@@ -38,7 +38,7 @@ class corpoVtuber extends vtuber {
 
     @Override
     void opening() {
-        System.out.println("Konnichiwa minnasan, watashiwa  " + this.nama);
+        System.out.println("Konnichiwa minnasan, watashiwa  " + this.nama + ". I'm from " + this.agensi);
     }
 }
 
