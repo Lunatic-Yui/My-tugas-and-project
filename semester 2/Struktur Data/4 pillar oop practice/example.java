@@ -1,3 +1,4 @@
+//this is just example from the class
 public class example {
     public static void main(String[] args) throws Exception {
         System.out.println("Maw");
