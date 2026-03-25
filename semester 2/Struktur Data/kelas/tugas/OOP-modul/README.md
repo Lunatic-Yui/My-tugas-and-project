@@ -106,9 +106,9 @@ Bisa dilihat lumayan panjang dalam implementasinya dikarenakan ada 3 file java y
 
 Ada 3 kode java. berikut kodenya:
 
-- [lylera.java](src/lylera.java) ini adalah file java utamanya
-- [vtuber.java](src/vtuber.java) ini adalah penggunaan oopnya
-- [Database.java](src/Database_Vtuber.java) ini adalah database yang tersimpan
+- [lylera.java](lylera.java) ini adalah file java utamanya
+- [vtuber.java](vtuber.java) ini adalah penggunaan oopnya
+- [Database.java](Database_Vtuber.java) ini adalah database yang tersimpan
 
 Tiap file memiliki cara kerja yang berbeda-beda. `lylera.java` untuk program utama dari codingan ini, `vtuber.java` untuk program penggunaan oopnya, dan `Database.java` untuk menyimpan data-data yang sudah dibikin oleh pengguna.
 
@@ -287,7 +287,7 @@ class circle_Vtuber extends vtuber  implements vtuber_activity{
 }
 ```
 
-source code: [vtuber.java](src/vtuber.java)
+source code: [vtuber.java](vtuber.java)
 
 Disini saya menggunakan beberapa oop:
 
@@ -350,8 +350,8 @@ Dikarenakan banyak bentuk dari inheritancenya ini, polymorphism memudahkan untuk
 Saya kurang tau perbedaan program saya dengan individu yang lain seperti apa. Namun dalam program saya ini terdapat 3 file yang bisa terhubung satu sama lain dengan penggunaan oop yang terhubung ke dalam database csvnya ini. Lalu juga pemanggilan oop ada di file `lylera.java` yang menjadi program utama untuk menghubungkan 2 file ini dan memanggil mereka ke dalam main. Jika ditanya tentang keunikan, kemungkina:
 
 - 3 file yang terhubung satu sama lain
-    - [lylera.java](src/lylera.java) program yang dirancang sebagai menu utama
-    - [vtuber.java](src/vtuber.java) program yang dirancang mengurus penggunaan oopnya
-    - [Database.java](src/Database_Vtuber.java) program yang dirancang mengurus penggunaan database seperti membaca, membuat, dan menghapusnya.
+    - [lylera.java](lylera.java) program yang dirancang sebagai menu utama
+    - [vtuber.java](vtuber.java) program yang dirancang mengurus penggunaan oopnya
+    - [Database.java](Database_Vtuber.java) program yang dirancang mengurus penggunaan database seperti membaca, membuat, dan menghapusnya.
 - Simulasi vtuber dan list vtubernya
 
