@@ -96,7 +96,7 @@ classDiagram
     Database_Vtuber ..> vtuber : manages
 ```
 
-Bisa dilihat lumayan panjang dalam implementasinya dikarenakan ada 3 file java yang masing-masing terhubung satu sama lain. Dan jika ingin melihat gambarnya, hasilnya sepert ini:
+Bisa dilihat lumayan panjang dalam implementasinya dikarenakan ada 3 file java yang masing-masing terhubung satu sama lain. Dan jika ingin melihat gambarnya, hasilnya seperti ini:
 
 ![alt text](assets/class-diagram.png)
 
@@ -312,7 +312,7 @@ public int getumur() {
 
 Disini untuk inheritancenya sendiri itu `indie_vtuber, agent_vtuber` dan `circle_vtuber` di extend dari class vtuber. Mereka mewarisi beberapa stat atau atribut dari class `vtuber` itu sendiri dengan penambahan `agent_vtuber` yaitu agensi dan `circle_vtuber` itu circlenya. Untuk `indie_vtuber` tidak ada penambahan apapun dan atributnya masih sama dengan classnya. Untuk interface ini yaitu penggunaan `vtuber activity` section:
 
-```
+```java
 interface vtuber_activity {
     void lagu_vtuber(String lagu);
     void cover_lagu(String lagu_cover);
